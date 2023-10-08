@@ -1,0 +1,147 @@
+body {
+  background-color: #9d9d9d;
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 46.1875rem;
+  height: 46.3125rem;
+  margin: 0 auto;
+  text-align: center;
+  background-color: black;
+  border-radius: 3.5rem;
+  background: #000;
+  box-shadow: 8px 8px 19px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+li {
+  list-style: none;
+}
+#title {
+  margin-top: 1.6875rem;
+  color: #000;
+  width: 41.25rem;
+  height: 6.125rem;
+  border-radius: 3.0625rem;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#title h1 {
+  margin: 0;
+  color: #000;
+  font-family: Zilla Slab;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.task {
+  padding-left: 0.3125rem;
+  width: 551px;
+  height: 65px;
+  border-radius: 35px;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.done {
+  width: 28.625rem;
+  border: none;
+  margin-left: 0.75rem;
+  color: #f00;
+  font-family: Zilla Slab;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration-line: line-through;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+
+.task-container {
+  width: 41.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.8rem;
+}
+.delete-btn {
+  width: 5.6875rem;
+  height: 3.3125rem;
+  border-radius: 2.1875rem;
+  border: 2px solid #fff;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.uncheck {
+  width: 3.3125rem;
+  height: 3.3125rem;
+  background-color: #000;
+  border-radius: 50%;
+}
+.not {
+  width: 28.625rem;
+  border: none;
+  margin-left: 0.75rem;
+  color: #000;
+  font-family: Zilla Slab;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration-line: none;
+}
+
+.add-btn {
+  width: 5.6875rem;
+  height: 3.3125rem;
+  border-radius: 2.1875rem;
+  border: 2px solid #fff;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.input-task {
+  border-radius: 35px;
+  align-self: center;
+  border-radius: 3rem;
+  width: 28.625rem;
+  border: none;
+  color: #000;
+  font-family: Zilla Slab;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration-line: none;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.input-container {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.task-description {
+  text-align: left;
+}
